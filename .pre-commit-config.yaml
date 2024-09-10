@@ -1,0 +1,29 @@
+repos:
+  - repo: local
+    hooks:
+      
+      - id: all-analysis
+        name: all-analysis
+        entry: ./static-analysis
+        language: script
+        # types: [python]
+        # args: ['-r', '.']
+
+     
+      - id: radon
+        name: Radon
+        entry: radon
+        language: python
+        types: [python]
+        args: ['cc', '-nc', '.']  # cc for cyclomatic complexity
+        # run: radon cc ./hw2 > hw2k;
+        additional_dependencies: ['radon']
+
+      
+      - id: bandit
+        name: Bandit
+        entry: bandit
+        language: python
+        types: [python]
+        args: ['-r', '.']  # cc for cyclomatic complexity
+        additional_dependencies: ['bandit']

@@ -1,0 +1,7 @@
+#!/bin/bash
+autopep8 --recursive --in-place .;
+bandit -r . > post_traces/bandit_trace.log 2>&1;
+radon cc . > post_traces/radon_cc_trace.log;
+radon hal . > post_traces/radon_hal_trace.log;
+radon mi . > post_traces/radon_mi_trace.log;
+radon raw . > post_traces/radon_raw_trace.log;

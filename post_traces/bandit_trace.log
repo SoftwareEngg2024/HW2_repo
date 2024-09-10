@@ -3,7 +3,7 @@
 [main]	INFO	cli include tests: None
 [main]	INFO	cli exclude tests: None
 [main]	INFO	running on Python 3.12.1
-Run started:2024-09-04 20:10:56.975661
+Run started:2024-09-10 00:23:59.945572
 
 Test results:
 >> Issue: [B311:blacklist] Standard pseudo-random generators are not suitable for security/cryptographic purposes.
@@ -16,21 +16,50 @@ Test results:
 7	    return arr
 
 --------------------------------------------------
+>> Issue: [B101:assert_used] Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.
+   Severity: Low   Confidence: High
+   CWE: CWE-703 (https://cwe.mitre.org/data/definitions/703.html)
+   More Info: https://bandit.readthedocs.io/en/1.7.9/plugins/b101_assert_used.html
+   Location: ./hw2/test_debugging.py:6:4
+5	    arr = [0, 9, 8, 1, 2, 3, 4]
+6	    assert mergeSort(arr) == [0, 1, 2, 3, 4, 8, 9]
+7	
+
+--------------------------------------------------
+>> Issue: [B101:assert_used] Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.
+   Severity: Low   Confidence: High
+   CWE: CWE-703 (https://cwe.mitre.org/data/definitions/703.html)
+   More Info: https://bandit.readthedocs.io/en/1.7.9/plugins/b101_assert_used.html
+   Location: ./hw2/test_debugging.py:11:4
+10	    arr = [5, 5, 5, 5, 5]
+11	    assert mergeSort(arr) == [5, 5, 5, 5, 5]
+12	
+
+--------------------------------------------------
+>> Issue: [B101:assert_used] Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.
+   Severity: Low   Confidence: High
+   CWE: CWE-703 (https://cwe.mitre.org/data/definitions/703.html)
+   More Info: https://bandit.readthedocs.io/en/1.7.9/plugins/b101_assert_used.html
+   Location: ./hw2/test_debugging.py:16:4
+15	    arr = [None]
+16	    assert mergeSort(arr) == [None]
+
+--------------------------------------------------
 
 Code scanned:
-	Total lines of code: 30
+	Total lines of code: 44
 	Total lines skipped (#nosec): 0
 	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
 
 Run metrics:
 	Total issues (by severity):
 		Undefined: 0
-		Low: 1
+		Low: 4
 		Medium: 0
 		High: 0
 	Total issues (by confidence):
 		Undefined: 0
 		Low: 0
 		Medium: 0
-		High: 1
+		High: 4
 Files skipped (0):

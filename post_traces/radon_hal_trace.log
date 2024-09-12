@@ -1,16 +1,3 @@
-hw2/rand.py:
-    h1: 0
-    h2: 0
-    N1: 0
-    N2: 0
-    vocabulary: 0
-    length: 0
-    calculated_length: 0
-    volume: 0
-    difficulty: 0
-    effort: 0
-    time: 0.0
-    bugs: 0.0
 hw2/hw2_debugging.py:
     h1: 6
     h2: 18
@@ -24,6 +11,19 @@ hw2/hw2_debugging.py:
     effort: 1031.6165626622603
     time: 57.31203125901446
     bugs: 0.06877443751081735
+hw2/rand.py:
+    h1: 0
+    h2: 0
+    N1: 0
+    N2: 0
+    vocabulary: 0
+    length: 0
+    calculated_length: 0
+    volume: 0
+    difficulty: 0
+    effort: 0
+    time: 0.0
+    bugs: 0.0
 hw2/test_debugging.py:
     h1: 1
     h2: 6

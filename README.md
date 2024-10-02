@@ -3,7 +3,7 @@
     <img src="https://img.shields.io/badge/Language-Python3.13-blue">
     <img src="https://img.shields.io/badge/License-MIT-green">
     <img src="https://img.shields.io/badge/Platform-Linux-blue">
-    <a href="https://github.com/SoftwareEngg2024/HW2_repo/actions/"> <img src="https://github.com/SoftwareEngg2024/HW2_repo/actions/workflows/python-app.yml/badge.svg"></a>
+    <a href="https://github.com/SoftwareEngg2024/HW2_repo/actions/"> <img src="https://github.com/SoftwareEngg2024/HW2_repo/actions/workflows/python-test.yml/badge.svg"></a>
 </p>
 
 This is an example of a good repo structure.

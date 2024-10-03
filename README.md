@@ -17,7 +17,8 @@ This is an example of a good repo structure.
 Result:
 <a href="https://raw.githubusercontent.com/SoftwareEngg2024/HW2_repo/master/post_traces/bandit_trace.log"><img src="https://img.shields.io/badge/Bandit-Low_Severity-yellow"></a>
 
-<b>Complexity Analysis - <img src="https://img.shields.io/badge/Radon-passed-green"></b>
+<b>Complexity Analysis - <a href="https://github.com/SoftwareEngg2024/HW2_repo/actions/workflows/Radon.yml">
+<img src="https://github.com/SoftwareEngg2024/HW2_repo/actions/workflows/Radon.yml/badge.svg"></a></b>
 
 <a href="https://raw.githubusercontent.com/SoftwareEngg2024/HW2_repo/master/post_traces/radon_cc_trace.log"><img src="https://img.shields.io/badge/Cyclomatic_Complexity-A-green"></a>
 <a href="https://raw.githubusercontent.com/SoftwareEngg2024/HW2_repo/master/post_traces/radon_mi_trace.log"><img src="https://img.shields.io/badge/Maintainability-A-green"></a>
